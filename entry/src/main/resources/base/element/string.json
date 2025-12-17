@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "入口描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "课表助手"
+    },
+    {
+      "name": "tab_timetable",
+      "value": "课程表"
+    },
+    {
+      "name": "tab_assignment",
+      "value": "作业待办"
+    }
+  ]
+}
