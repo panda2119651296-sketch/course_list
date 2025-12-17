@@ -40,20 +40,36 @@ UI 框架: ArkUI
 开发工具: DevEco Studio
 
 📂 目录结构 (Directory Structure)
+
 entry/src/main/ets
+
 ├── model                  // [数据模型层] 
+
 │   └── Types.ts           // 定义 Course(课程) 和 Assignment(作业) 数据结构
+
 ├── view                   // [UI组件层] 模块化设计
+
 │   ├── TimetableComponent.ets  // 课表组件 (含自定义弹窗 CustomDialog)
+
 │   └── AssignmentComponent.ets // 待办组件 (含 List 侧滑操作)
+
 ├── utils                  // [工具类]
+
 │   └── StorageUtils.ts    // 封装数据存取逻辑，实现业务与存储解耦
+
 ├── pages                  // [页面层]
+
 │   └── Index.ets          // 应用主入口，管理 Tabs 切换
+
 └── entryability           // [系统入口]
     └── EntryAbility.ts    // 生命周期管理
+
+
+
 📸 界面预览 (Screenshots)
-    <img width="526" height="926" alt="image" src="https://github.com/user-attachments/assets/40372712-5131-4035-b757-77337412ec5b" /><img width="513" height="924" alt="image" src="https://github.com/user-attachments/assets/1222f60b-c281-476c-8041-e14dd4df66df" />
+  
+   <img width="526" height="926" alt="image" src="https://github.com/user-attachments/assets/40372712-5131-4035-b757-77337412ec5b" />
+    <img width="513" height="924" alt="image" src="https://github.com/user-attachments/assets/1222f60b-c281-476c-8041-e14dd4df66df" />
 
 
 🤝 贡献与反馈 (Contribution)
